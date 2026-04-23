@@ -15,6 +15,7 @@ export default function Wallet() {
         <ScrollView>
             <View style={{
                 padding: 15,
+                marginTop: 10,
             }}>
                 <Text style={{ color: 'white', fontSize: 40, fontWeight: 'bold', }}>Wallets</Text>
                 <View style={styles.saving}>
@@ -57,15 +58,15 @@ export default function Wallet() {
                 </View>
                 <View style={styles.heading}>
                     <Pressable style={styles.press}>
-                        <Text style={{ color: 'white', marginTop: 5, }}>Stablecoins</Text>
+                        <Text style={{ color: 'white', marginTop: 5, textAlign: 'center' }}>Stablecoins</Text>
                     </Pressable>
 
                     <Pressable>
-                        <Text style={{ color: 'white', marginLeft: -25, }}>Utility</Text>
+                        <Text style={{ color: 'white', marginLeft: -25, textAlign: 'center' }}>Utility</Text>
                     </Pressable>
 
                     <Pressable>
-                        <Text style={{ color: 'white', marginLeft: -20, marginTop: -3, }}>Memes <Ionicons name="flame" size={20} color='red' /></Text>
+                        <Text style={{ color: 'white', marginLeft: -20, marginTop: -3, textAlign: 'center' }}>Memes <Ionicons name="flame" size={20} color='red' /></Text>
                     </Pressable>
                 </View>
 
@@ -150,8 +151,9 @@ const styles = StyleSheet.create({
         backgroundColor: '#2c2c2c',
         borderRadius: 25,
         justifyContent: 'center',
+        // alignItems: 'center',
         height: 45,
-        width: 370,
+        width: 350,
         marginLeft: -5,
     },
 

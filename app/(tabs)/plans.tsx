@@ -95,7 +95,7 @@ const styles = StyleSheet.create({
         height: 187,
         width: 155,
         marginTop: 13,
-        // marginLeft: -10,
+        marginLeft: -10,
     },
 
     p2: {
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
         height: 187,
         width: 158,
         marginTop: 13,
-        // marginLeft: -10,
+        marginLeft: -10,
     },
     icon3: {
         backgroundColor: 'blue',
@@ -170,7 +170,7 @@ const styles = StyleSheet.create({
         height: 187,
         width: 158,
         marginTop: 13,
-        marginLeft: 25,
+        marginLeft: 18,
     },
     icon4: {
         backgroundColor: 'blue',

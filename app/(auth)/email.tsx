@@ -11,6 +11,7 @@ export default function Email() {
 
         <View style={{
             padding: 20,
+            marginTop:20,
         }}>
             <Text style={{ color: 'white', fontSize: 24, fontWeight: 'bold' }}>Welcome</Text>
 
@@ -72,6 +73,9 @@ const styles = StyleSheet.create({
         height: 40,
         outlineStyle: 'solid',
         outlineColor: 'grey',
+        borderWidth: 1,
+        borderColor: 'gray',
+        borderRadius: 5,
         padding: 10,
     },
     end: {

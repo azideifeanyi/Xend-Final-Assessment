@@ -13,6 +13,7 @@ export default function Welcome() {
         <ScrollView>
             <View style={{
                 padding: 20,
+                marginTop: 10,
                 // alignItems: 'center',i
             }}>
                 <Pressable style={{

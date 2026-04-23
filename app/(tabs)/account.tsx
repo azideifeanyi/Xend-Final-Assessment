@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     },
 
     copyIcon: {
-        marginLeft: 44,
+        marginLeft: 30,
         marginTop: 25,
     },
 
@@ -133,7 +133,7 @@ const styles = StyleSheet.create({
     ricon: {
         flexDirection: 'row',
         gap: 18,
-        marginLeft: 270,
+        marginLeft: 250,
         marginTop: -45,
     },
     mapText: {

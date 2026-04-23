@@ -16,6 +16,7 @@ export default function HomeScreen() {
       <View style={{
         position: 'relative',
         padding: 10,
+        marginTop: 30,
       }}>
 
         <Feather style={styles.bar} name='bar-chart-2' /><Text style={styles.header}>XEND</Text> 
@@ -30,7 +31,8 @@ export default function HomeScreen() {
           padding: 5,
           borderRadius: 25,
           // marginLeft: 295,
-          left: '85%',
+          left: '87%',
+          marginTop: 10,
 
         }}>
           <Ionicons name='chatbubble-outline' size={27} color='black' />
@@ -39,7 +41,7 @@ export default function HomeScreen() {
 
       <View style={styles.profileview}>
         <View style={styles.userpic}> <Ionicons name='person' size={53} color='grey' /></View>
-        <Text style={styles.userName}>Welcome, Kelvin</Text>
+        <Text style={styles.userName}>Welcome, Franklin</Text>
       </View>
 
       <Text style={styles.p1}>Enter your password</Text>
@@ -49,23 +51,23 @@ export default function HomeScreen() {
         flexDirection: 'row',
         alignItems: 'center',
         borderWidth: 1,
-        width: '95%',
+        width: 335,
         height: 55,
-        marginLeft: 10,
-        borderColor: '#ccc',
-        borderRadius: 2,
-        padding: 10
+        marginLeft: 13,
+        borderColor: 'grey',
+        borderRadius: 12,
+        // padding: 10,
       }}>
 
-        <Ionicons name='lock-closed-outline' size={20} color='white' />
+        <Ionicons name='lock-closed-outline' size={20} color='grey' style={{marginLeft: 5}} />
         <TextInput
           placeholder='Password'
           secureTextEntry={!showPassword}
-          style={{ flex: 1, marginLeft: 8, color: 'white', outline: 'none' }}
+          style={{ marginLeft: 8, color: 'grey', outline: 'none', }}
           underlineColorAndroid='transparent'
         />
         <Pressable onPress={() => setShowPassword(!showPassword)}>
-          <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color='white' />
+          <Ionicons name={showPassword ? 'eye-off-outline' : 'eye-outline'} size={20} color='grey' style={{marginLeft: 195}}/>
         </Pressable>
 
 
@@ -130,7 +132,7 @@ const styles = StyleSheet.create({
     position: 'relative',
     color: 'white',
     // marginLeft: '25%',
-    marginLeft: 90,
+    marginLeft: 82,
     marginTop: -28,
     fontSize: 20,
   },
@@ -182,8 +184,9 @@ const styles = StyleSheet.create({
   forgot: {
     color: 'white',
     padding: 10,
-    fontSize: 16,
-    marginLeft: '59%',
+    fontSize: 13,
+    marginLeft: 229,
+    
   },
 
   continue: {

@@ -23,7 +23,7 @@ export default function HomeScreen() {
 
     return (
         <ScrollView>
-            <View style={{ padding: 10 }}>
+            <View style={{ padding: 10, marginTop: 20, }}>
                 <View style={styles.profileview}>
                     <View style={styles.userpic}> <Ionicons name='person' size={35} color='grey' /></View>
                     <Pressable style={styles.chatIcon}>
@@ -31,7 +31,7 @@ export default function HomeScreen() {
                     </Pressable>
                 </View>
                 <View style={styles.headingText}>
-                    <Text style={styles.userName}> Hi, @Kelvin_Chiemezie</Text>
+                    <Text style={styles.userName}> Hi, @Rex</Text>
                     <Text style={styles.subtitle}>Start Saving now</Text>
                 </View>
 
@@ -68,7 +68,7 @@ export default function HomeScreen() {
                         <Text style={{ color: 'gray', fontWeight: 'bold' }}>QUICK ACTIONS </Text>
 
 
-                        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 16, padding: 10 }}>
+                        <View style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 16, padding: 10,justifyContent: 'center', }}>
                             {actions.map((item) => (
                                 <Pressable key={item.label} style={{ alignItems: 'center', width: '28%' }}>
                                     <View style={{
@@ -195,7 +195,8 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         gap: 9,
         color: 'white',
-        fontSize: 15,
+        marginLeft: -5,
+        fontSize: 14
 
     },
 
@@ -228,7 +229,7 @@ const styles = StyleSheet.create({
         borderRadius: 35,
         justifyContent: 'center',
         alignItems: 'center',
-        marginLeft: 250,
+        marginLeft: 230,
         marginTop: -42,
     }
 
